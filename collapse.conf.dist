@@ -1,0 +1,22 @@
+[bot]
+; the server address to connect to
+server=concrete.slashnet.org
+; the primary channel
+channel=#mefitest
+nick=collapsebot
+user=collapsebot
+; whether to spit stuff out on console
+debug=True
+; twitter app oauth credentials, separate from user
+consumer_key=CONSUMERKEY
+consumer_secret=CONSUMERSECRET
+; ignore everything from these people
+ignore_nicks=annoying irritatingperson dmd
+; also ignore all history from these people
+ignore_hist=annoying
+; the nick to receive commands from. not super secure
+owner=lysol
+; whether urls should be expanded from short urls
+expand_urls=1
+; whether to use threads. I forget the behavior here, leave it be
+use_threads=0
